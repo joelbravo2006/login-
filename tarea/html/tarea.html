@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/tarea.css" type="text/css">
+
+</head>
+
+<body>
+
+    <!--FORMULARIO-->
+    <form action="../html/index2.html" method="get" name="miformulario" id="miform">
+        <h1>Login</h1>
+        <input type="text" name="nombre" size="20" onclick="user" id="user" placeholder="Usuario" required/>
+        <br /><br />
+        <input type="password" size="12" id="pass" placeholder="Contraseña" required />
+        <br /><br />
+        <button onclick="enviar()" type="button" id="inicio">iniciar sesion </button>
+        <p id="demo1"></p>
+        <button type="button" onclick="limpiar()" id="clean">limpiar</button>
+    </form>
+
+
+
+    <script src="../js/tarea.js"></script>
+</body>
+
+</html>
